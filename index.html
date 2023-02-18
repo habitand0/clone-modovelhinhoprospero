@@ -30,18 +30,7 @@
 	src="https://www.facebook.com/tr?id=709104150754831&ev=PageView&noscript=1"
 	/></noscript>
 	<!-- End Meta Pixel Code -->
-	  
-	<!--<script>
-	    window.onload = function () {
-		var links = document.getElementsByTagName("a");
-		for (var i = 0, n = links.length; i < n; i++) {
-		    var href = links[i].href.trim() +
-			    (links[i].href.indexOf("?") > 0 ? '&' : '?') +
-			    document.location.search.replace('?', '').toString();
-		    links[i].href = href;
-		}
-	    }
-	</script> -->
+	
 
     <!-- Título da Página -->
     <title>Velhinho do PIX</title>
@@ -395,8 +384,7 @@ Você precisa estar logado para comentar.
 	
 	<!-- UTM -->
 	<script>
-	   let prefix = ["https://pepper.com.br"];
-
+	    let prefix = ["https://pepper.com.br"];
 	function getParams() {
 	    let t = "",
 		e = window.top.location.href,
@@ -414,7 +402,8 @@ Você precisa estar logado para comentar.
 	    t.toString() && document.querySelectorAll("a").forEach(function(e) {
 		for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
 	    })
-	}(); </script>
+	}();
+	</script>
 	
 	<!-- <script src="https://cdn.jsdelivr.net/npm/disable-devtool@0.2.5" disable-devtool-auto="" md5="7e9f71f8f7f16e1b7cec3a14104f46f7"></script> -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
